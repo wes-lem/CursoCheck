@@ -4,14 +4,11 @@
 
 ---
 
-### Desenvolvedor:
-**Weslem Rodrigues**
+**Desenvolvedor:** *Weslem Rodrigues*
 
-### Curso:
-**Arquitetura de Sistemas**
+**Curso:** *Arquitetura de Sistemas*
 
-### Professor:
-**Gabriel Tavares**
+**Professor:** *Gabriel Tavares*
 
 ---
 
