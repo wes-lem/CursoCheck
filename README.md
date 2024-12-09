@@ -135,6 +135,25 @@ Antes de rodar o projeto, é necessário ter os seguintes pré-requisitos:
 1. **Clone o repositório**:
    Se você ainda não tem o projeto, clone-o para sua máquina local com o seguinte comando:
    ```bash
-   git clone https://github.com/wes-lem/CursosCheck.git
-   cd nome-do-repositorio
+   git clone https://github.com/wes-lem/CursoCheck.git
+   cd CursoCheck
    ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Start the development server:
+   ```bash
+   uvicorn main:app --reload
+   ```
+
+4. Open your browser and navigate to:
+   - API Docs: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) 📄
+   - Redoc: [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc) 📚
+
+---
+
+## License 📜
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
