@@ -1,6 +1,5 @@
- CursosCheck 📚
-
-**CursosCheck** é um app desenvolvido com **FastAPI** para gerenciar um checklist de cursos. Com ele, você pode criar, listar, atualizar e deletar cursos, categorias e aulas.
+**CursosCheck 📚**
+É um app desenvolvido com **FastAPI** para gerenciar um checklist de cursos. Com ele, você pode criar, listar, atualizar e deletar cursos, categorias e aulas.
 
 ---
 
