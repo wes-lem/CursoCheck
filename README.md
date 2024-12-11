@@ -1,14 +1,17 @@
-**CursosCheck 📚**
+ CursosCheck 📚
 
-É um app desenvolvido com **FastAPI** para gerenciar um checklist de cursos. Com ele, você pode criar, listar, atualizar e deletar cursos, categorias e aulas.
+**CursosCheck** é um app desenvolvido com **FastAPI** para gerenciar um checklist de cursos. Com ele, você pode criar, listar, atualizar e deletar cursos, categorias e aulas.
 
 ---
 
-**Desenvolvedor:** *Weslem Rodrigues*
+### Desenvolvedor:
+**Weslem Rodrigues**
 
-**Curso:** *Arquitetura de Sistemas*
+### Curso:
+**Arquitetura de Sistemas**
 
-**Professor:** *Gabriel Tavares*
+### Professor:
+**Gabriel Tavares**
 
 ---
 
@@ -20,9 +23,10 @@
 Listar cursos.
 **Response:**
 ```json
-  "curso" : {
-    [...],
-    [...]
+  {
+    "status": "success",
+    "message": "Cursos listados com sucesso.",
+    "data": []
   }
 ```
 
@@ -31,8 +35,10 @@ Listar cursos.
 Cria um novo curso.
 **Response:**
 ```json
-  "curso" : {
-    [...]
+  {
+    "status": "success",
+    "message": "Curso cadastrado com sucesso.",
+    "data": []
   }
 ```
 
@@ -41,8 +47,10 @@ Cria um novo curso.
 Listar curso por id.
 **Response:**
 ```json
-  "curso" : {
-    [...]
+  {
+    "status": "success",
+    "message": "Curso encontrado.",
+    "data": []
   }
 ```
 
@@ -51,8 +59,10 @@ Listar curso por id.
 Atualiza os dados de um curso existente.
 **Response:**
 ```json
-  "curso" : {
-    [...]
+  {
+    "status": "success",
+    "message": "Curso atualizado com sucesso.",
+    "data": []
   }
 ```
 
@@ -61,8 +71,10 @@ Atualiza os dados de um curso existente.
 Remove um curso específico.
 **Response:**
 ```json
-  "curso" : {
-    [...]
+  {
+    "status": "success",
+    "message": "Curso deletado com sucesso.",
+    "data": []
   }
 ```
 
@@ -71,9 +83,10 @@ Remove um curso específico.
 Retorna as categorias de um curso específico.
 **Response:**
 ```json
-  "categorias" : {
-    [...],
-    [...]
+  {
+    "status": "success",
+    "message": "Categorias encontradas.",
+    "data": []
   }
 ```
 
@@ -82,8 +95,10 @@ Retorna as categorias de um curso específico.
 Adiciona uma nova aula a uma categoria específica.
 **Response:**
 ```json
-  "aula" : {
-    [...]
+  {
+    "status": "success",
+    "message": "Aula adicionada com sucesso.",
+    "data": []
   }
 ```
 
@@ -92,9 +107,10 @@ Adiciona uma nova aula a uma categoria específica.
 Retorna todas as aulas de um curso específico.
 **Response:**
 ```json
-  "aulas" : {
-    [...],
-    [...]
+  {
+    "status": "success",
+    "message": "Aulas encontradas.",
+    "data": []
   }
 ```
 
@@ -103,8 +119,10 @@ Retorna todas as aulas de um curso específico.
 Atualiza os dados de uma aula específica.
 **Response:**
 ```json
-  "aula" : {
-    [...]
+  {
+    "status": "success",
+    "message": "Aula atualizada com sucesso.",
+    "data": []
   }
 ```
 
@@ -113,8 +131,10 @@ Atualiza os dados de uma aula específica.
 Remove uma aula específica de um curso.
 **Response:**
 ```json
-  "aula" : {
-    [...]
+  {
+    "status": "success",
+    "message": "Aula deletada com sucesso.",
+    "data": []
   }
 ```
 
@@ -132,9 +152,10 @@ Antes de rodar o projeto, é necessário ter os seguintes pré-requisitos:
 1. **Clone o repositório**:
    Se você ainda não tem o projeto, clone-o para sua máquina local com o seguinte comando:
    ```bash
-   git clone https://github.com/wes-lem/CursoCheck.git
-   cd CursoCheck
+   git clone https://github.com/wes-lem/CursosCheck.git
+   cd nome-do-repositorio
    ```
+  
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
