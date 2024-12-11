@@ -32,6 +32,7 @@ Listar cursos.
 
 ### 2. Criar Curso
 **POST** `/cursos`
+
 Cria um novo curso.
 **Response:**
 ```json
@@ -44,6 +45,7 @@ Cria um novo curso.
 
 ### 3. Listar um Curso
 **GET** `/cursos/{curso_id}`
+
 Listar curso por id.
 **Response:**
 ```json
@@ -56,6 +58,7 @@ Listar curso por id.
 
 ### 4. Atualizar Curso
 **PUT** `/cursos/{curso_id}`
+
 Atualiza os dados de um curso existente.
 **Response:**
 ```json
@@ -68,6 +71,7 @@ Atualiza os dados de um curso existente.
 
 ### 5. Deletar Curso
 **DELETE** `/cursos/{curso_id}`
+
 Remove um curso específico.
 **Response:**
 ```json
@@ -80,6 +84,7 @@ Remove um curso específico.
 
 ### 6. Listar Categorias do Curso
 **GET** `/cursos/{curso_id}/categorias`
+
 Retorna as categorias de um curso específico.
 **Response:**
 ```json
@@ -92,6 +97,7 @@ Retorna as categorias de um curso específico.
 
 ### 7. Adicionar Aula
 **POST** `/cursos/{curso_id}/categorias/{categoria_nome}/aulas`
+
 Adiciona uma nova aula a uma categoria específica.
 **Response:**
 ```json
@@ -104,6 +110,7 @@ Adiciona uma nova aula a uma categoria específica.
 
 ### 8. Listar Aulas de um Curso
 **GET** `/cursos/{curso_id}/aulas`
+
 Retorna todas as aulas de um curso específico.
 **Response:**
 ```json
@@ -116,6 +123,7 @@ Retorna todas as aulas de um curso específico.
 
 ### 9. Atualizar Aula do Curso
 **PUT** `/cursos/{curso_id}/categorias/{categoria_nome}/aulas/{aula_id}`
+
 Atualiza os dados de uma aula específica.
 **Response:**
 ```json
@@ -128,6 +136,7 @@ Atualiza os dados de uma aula específica.
 
 ## 10. Deletar Aula
 **DELETE** `/cursos/{curso_id}/categorias/{categoria_nome}/aulas/{aula_id}`
+
 Remove uma aula específica de um curso.
 **Response:**
 ```json
